@@ -7,3 +7,8 @@ Requires:
 * PETSc: http://mcs.anl.gov/petsc
 
 * Voro++: http://math.lbl.gov/voro++
+
+
+Example run:
+
+$ ./rmeshdual -f ~/parmod/data/port_050k.rmesh -boundary_free 1,2 -boundary_solid 3

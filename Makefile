@@ -9,7 +9,7 @@ VORO_LIBRARIES = -L${VORO_DIR}/lib -Wl,-rpath,${VORO_DIR}/lib -lvoro++
 CFLAGS += ${VORO_INCLUDES}
 
 rmeshdual : rmeshdual.o
-	${CLINKER} -o $@ $< ${PETSC_MAT_LIB}
+	${CLINKER} -o $@ $< ${PETSC_MAT_LIB} -lvoro++
 
 vorotest : vorotest.o
 	${CLINKER} -o $@ $< -lvoro++ -lstdc++

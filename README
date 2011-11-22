@@ -1,0 +1,9 @@
+Simple project to extract information about Voronoi dual volumes
+(suitable for PETSc-FUN3D) from Delaunay tetrahedral meshes (in RMesh
+format).
+
+Requires:
+
+* PETSc: http://mcs.anl.gov/petsc
+
+* Voro++: http://math.lbl.gov/voro++
